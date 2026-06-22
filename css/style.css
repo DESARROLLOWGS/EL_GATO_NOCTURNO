@@ -56,7 +56,9 @@ header{
 }
 
 .logo img{
-  width:65px;
+  width:75px;
+  heigth:75px;
+  object-fit: contain;
 }
 
 .logo h1{
