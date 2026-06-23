@@ -11,7 +11,8 @@ const heroSection = document.querySelector('.hero');
 // 2. Función que cambia el fondo aplicando el degradado oscuro para el texto
 function cambiarImagenHero() {
     // Definimos el degradado idéntico al que tenías en CSS
-    const degradado = "linear-gradient(to right, rgba(4, 10, 20, 0.9) 30%, rgba(4, 10, 20, 0.4) 70%)";
+    // Cambiamos la opacidad de 0.9 a 0.6 en la izquierda, y de 0.4 a 0.1 en la derecha
+    const degradado = "linear-gradient(to right, rgba(4, 10, 20, 0.6) 20%, rgba(4, 10, 20, 0.1) 80%)";
     const nuevaImagen = imagenesHero[indiceActual];
     
     // Cambiamos el estilo del fondo en el HTML
