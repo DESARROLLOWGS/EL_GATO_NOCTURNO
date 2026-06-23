@@ -142,7 +142,7 @@ nav ul li a:hover {
   height: 75vh;
   /* Asegúrate de que el nombre de la imagen que descargaste coincida aquí (ej: hero.jpg) */
   background: linear-gradient(to right, rgba(4, 10, 20, 0.9) 30%, rgba(4, 10, 20, 0.4) 70%), 
-              url("../assets/hero.jpg"); 
+              url("../assets/hero.png"); 
   background-size: cover;
   background-position: right center; /* Mantiene las botellas a la derecha */
   display: flex;
