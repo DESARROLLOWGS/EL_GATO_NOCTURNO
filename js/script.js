@@ -12,7 +12,9 @@ const heroSection = document.querySelector('.hero');
 function cambiarImagenHero() {
     // Definimos el degradado idéntico al que tenías en CSS
     // Cambiamos la opacidad de 0.9 a 0.6 en la izquierda, y de 0.4 a 0.1 en la derecha
-    const degradado = "linear-gradient(to right, rgba(4, 10, 20, 0.6) 20%, rgba(4, 10, 20, 0.1) 80%)";
+    // const degradado = "linear-gradient(to right, rgba(4, 10, 20, 0.6) 20%, rgba(4, 10, 20, 0.1) 80%)";
+    // En lugar de usar negro (rgba de 4,10,20), usamos un velo blanco/transparente levísimo (255,255,255) que actúa como iluminación frontal
+    const degradado = "linear-gradient(to right, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 100%)";
     const nuevaImagen = imagenesHero[indiceActual];
     
     // Cambiamos el estilo del fondo en el HTML
