@@ -140,16 +140,16 @@ nav ul li a:hover {
 ===================== */
 .hero {
   height: 75vh;
-  /* Asegúrate de que el nombre de la imagen que descargaste coincida aquí (ej: hero.jpg) */
-  background: linear-gradient(to right, rgba(4, 10, 20, 0.9) 30%, rgba(4, 10, 20, 0.4) 70%), 
-              url("../assets/hero.png"); 
+  /* Reemplazamos el background anterior por este color base mientras carga el script */
+  background-color: #040a14; 
   background-size: cover;
-  background-position: right center; /* Mantiene las botellas a la derecha */
+  background-position: right center;
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* Empuja el contenido a la izquierda */
-  padding: 0 80px; /* Margen interno para que el texto no pegue al borde */
+  justify-content: flex-start;
+  padding: 0 80px;
   position: relative;
+  transition: background-image 0.8s ease-in-out; /* Hace que el cambio de imagen sea suave */
 }
 
 /* Flechas del Slider */
